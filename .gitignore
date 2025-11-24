@@ -1,0 +1,45 @@
+# --- Flutter / Dart ---
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.melos_tool/
+
+# Генерируемые Flutter файлы
+flutter_*.png
+
+# --- iOS / Xcode ---
+ios/Flutter/Flutter.podspec
+ios/Flutter/ephemeral/
+ios/.symlinks/
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/DerivedData/
+*.xcuserstate
+*.xcuserdata/
+*.moved-aside
+*.hmap
+
+# --- Android ---
+android/.gradle/
+android/.idea/
+android/local.properties
+android/**/build/
+android/*/captures/
+android/*/release/
+
+# --- Общий мусор ---
+.DS_Store
+.idea/
+.vscode/
+*.iml
+*.log
+
+# --- SwiftLint ---
+.swiftlint.cache
+
+# --- Дополнительно, если есть ---
+# архивы, временные файлы
+*.tmp
+*.swp
+*.swo
